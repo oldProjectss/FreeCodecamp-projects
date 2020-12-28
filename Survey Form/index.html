@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Hello -->
+
+<head>
+    <title>Survey Form: Open Source Technologies</title>
+    <link type="text/css" rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Welcome to Th3Web Dev Survey</h1>
+        <p id="description">This is a survey for self thoght Developers, to see how they are doing in there learning path.</p>
+    </header>
+    <main id="form">
+        <form id="survey-form">
+            <label id="name-label" for="name">Full Name:</label></br>
+            <input id="name" type="text" name="name" placeholder="Enter your name" title="Please enter your full name" required></br>
+            </br>
+
+            <label id="email-label" for="email">Email:</label></br>
+            <input id="email" type="email" name="email" placeholder="Enter your Email" title="Please enter a valide email address!" required></br>
+            </br>
+
+            <label id="country-label" for="country">You are from:</label></br>
+            <input id="country" type="text" name="country" placeholder="Where are you from..." title="Please enter your country of residence"></br>
+            </br>
+
+            <label for="dropdown-label">What's your role:</label></br>
+            <select id="dropdown" name="role">
+                <option value="student">Student</option>
+                <option value="programmer">Programmer</option>
+                <option value="designer">Designer</option>
+                <option value="self-learner">Self Learner</option>
+            </select></br>
+            </br>
+
+            <label id="number-label" for="number">Years of experience:</label>
+            <input id="number" type="number" placeholder="Your experience" title="Please enter numbers only!" name="number" min="1" max="10"></br>
+            </br>
+
+            <label>Did you ever write code:</label></br>
+            </br>
+
+            <input id="yes-code" type="radio" name="code" value="yes"><label for="yes-code">Yes </label></br>
+
+            <input id="no-code" type="radio" name="code" value="no">
+            <label for="code">No</label></br>
+
+            <input id="not-code" type="radio" name="code" value="notSure"><label for="not-code">Maybe</label>
+            </br>
+            </br>
+
+            <label>Programes that you learning from: </label></br>
+            </br>
+            <input type="checkbox" name="freecodecamp" value="freecodecamp">
+            <label for="freecodecamp">FreecodeCamp</label></br>
+
+            <input type="checkbox" name="the-odinproject" value="theodinproject">
+            <label for="the-odinproject">The Odin Project</label></br>
+
+
+            <input type="checkbox" name="Codecademy" value="Codecademy">
+            <label for="Codecademy">Codecademy</label></br>
+
+            <input type="checkbox" name="cs50" value="cs50">
+            <label for="cs50">CS50</label>
+
+            </br>
+            </br>
+            <label for="suggestions">Do you have any suggestions?</label>
+            <textarea name="suggestions" id="" cols="30" rows="10"></textarea>
+            <center>
+                <button id="submit" type="submit">Submit</button></center>
+        </form>
+    </main>
+
+</body>
+
+</html>
