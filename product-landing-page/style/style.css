@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    /* font-size: 100%; */
+}
+
+ul,
+nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+section {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media all and (min-width: "10000px") {
+    section {
+        padding: 100px 50px;
+    }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006a65;
+    padding: 20px 100px;
+}
+
+header nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header img {
+    width: 150px;
+    top: 0;
+}
+
+#banner {
+    position: relative;
+    margin-top: 70px;
+}
+
+#banner-img {
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    padding: 100px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+
+/* #price {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+} */
+
+.price {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(/img/coffee.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    /* backdrop-filter: blur(10px); */
+}
+
+.priceOne {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    text-align: center;
+    max-width: 300px;
+    background-color: rgb(79, 173, 177);
+    flex: 30% 1fr;
+}
+
+.priceOne h2,
+p {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 20px;
+}
