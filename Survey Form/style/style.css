@@ -11,7 +11,7 @@ body {
     height: 100%;
     text-align: center;
     font-family: Lato, Verdana, sans-serif;
-    background: url(/img/background.jpg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/MDigitalSitizen/freecodecamp-projects/main/Survey%20Form/img/background.jpg) no-repeat center;
     backdrop-filter: blur(10px);
 }
 
