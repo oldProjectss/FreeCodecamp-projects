@@ -1,48 +1,47 @@
-html {
-    padding: 0;
-    margin: 0;
+html,
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-family: Lato, Verdana, sans-serif;
-    background: url(https://raw.githubusercontent.com/MDigitalSitizen/freecodecamp-projects/main/Survey%20Form/img/background.jpg) no-repeat center;
-    backdrop-filter: blur(10px);
+  text-align: center;
+  font-family: Lato, Verdana, sans-serif;
+  background: url(https://raw.githubusercontent.com/MDigitalSitizen/freecodecamp-projects/main/Survey%20Form/img/background.jpg)
+    no-repeat center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 header {
-    margin-top: 0;
+  padding-top: 40px;
 }
 
 h1 {
-    font-style: bold;
-    font-size: 2em;
-    margin-bottom: -10px;
+  font-style: bold;
+  font-size: 2em;
+  margin-bottom: -10px;
 }
 
 p {
-    font-style: italic;
-    font-size: 1em;
-    margin-bottom: 40px;
+  font-style: italic;
+  font-size: 1em;
+  margin-bottom: 40px;
 }
 
 #form {
-    box-shadow: 10px black;
+  box-shadow: 10px black;
+  padding-bottom: 50px;
 }
 
 #survey-form {
-    max-width: 50%;
-    text-align: left;
-    margin: 30px auto;
-    padding: 20px;
-    border: solid 1px rgba(134, 27, 180, 0.25);
-    border-radius: 3px;
-    background-color: rgba(134, 27, 180, 0.8);
+  max-width: 50%;
+  text-align: left;
+  margin: 30px auto;
+  padding: 20px;
+  border: solid 1px rgba(134, 27, 180, 0.25);
+  border-radius: 3px;
+  background-color: rgba(134, 27, 180, 0.8);
 }
 
 #name,
@@ -52,15 +51,15 @@ p {
 #dropdown,
 #submit,
 textarea {
-    border-radius: 6px;
-    border: 1px solid grey;
-    padding: 9px;
-    width: 95%;
-    max-width: 95%;
-    margin: 8px auto;
-    background-color: rgba(174, 207, 200, 0.9);
+  border-radius: 6px;
+  border: 1px solid grey;
+  padding: 9px;
+  width: 95%;
+  max-width: 95%;
+  margin: 8px auto;
+  background-color: rgba(174, 207, 200, 0.9);
 }
 
 #submit {
-    background-color: rgb(173, 0, 253) !important;
+  background-color: rgb(173, 0, 253) !important;
 }
