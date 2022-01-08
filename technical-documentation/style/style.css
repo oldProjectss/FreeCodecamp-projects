@@ -18,6 +18,13 @@ body {
     position: fixed;
 }
 
+@suports (position: sticky) {
+    .side {
+        position: sticky;
+        top: 0;
+    }
+}
+
 .side li {
     list-style: none;
     margin: 10px auto;
