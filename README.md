@@ -4,6 +4,8 @@
 
 > This repo contain the five project in the freecodedcamp responsive design
 
+## Screenshot
+
 ![screenshot](img/documentation_screenshot.png)
 ![screenshot](img/survey_screenshoot.png)
 ![screenshot](img/product_page_screenshot.png)
